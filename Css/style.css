@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 900px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    padding: 10px 0;
+    box-shadow: 0px 5px 20px #80808087;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+
+nav {
+    width: 80%;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: #3b506c;
+    font-weight: 600;
+    padding: 10px 15px;
+    display: block;
+}
+
+/* banner section */
+.banner-sction {
+    padding: 50px;
+    text-align: center;
+}
+
+.banner-sction h1 {
+    font-size: 60px;
+    color: #3b506c;
+}
+
+.banner-sction h1 span {
+    color: #0c66ff;
+    /* font-style: italic; */
+}
+
+.banner-sction p {
+    font-size: 18px;
+    color: #3b506c;
+    margin: -40px 0px 0px 0px;
+}
+
+
+/* image section */
+.main-image {
+    margin: 40px 0;
+}
+
+.main-image img {
+    max-width: 600px;
+    margin: auto;
+    display: block;
+}
+
+
+/* feature section */
+.feature-section {
+    padding: 50px 0;
+}
+
+.column {
+    width: 50%;
+    float: left;
+}
+
+.feature {
+    padding: 26px;
+}
+
+.text-align {
+    text-align: right;
+}
+
+.feature h2 {
+    font-size: 60px;
+    color: #3b506c;
+    text-transform: lowercase;
+}
+
+.feature h2 span {
+    color: rgba(241, 47, 47, 0.671);
+}
+
+.feature p {
+    font-size: 18px;
+    color: #3b506c;
+}
